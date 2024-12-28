@@ -129,7 +129,7 @@ class BaseLoggerManager:
     def clear_level(self):
         """Сброс базового обработчика на DEBUG"""
         self._logger.setLevel('DEBUG')
-        self._internal_logger.log_info(f"Уровень базового логирования установлен на DEBUG")
+        self._internal_logger.log_info("Уровень базового логирования установлен на DEBUG")
 
     # Управление внутренним логгером
     def enable_internal_logging(self):
